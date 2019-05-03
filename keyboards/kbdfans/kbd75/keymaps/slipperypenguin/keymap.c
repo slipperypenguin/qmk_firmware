@@ -47,10 +47,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 uint32_t layer_state_set_user(uint32_t state) {
     switch (biton32(state)) {
     case WINDOWS_LAYER:
-        rgblight_setrgb_blue();
+        rgblight_setrgb_green();
         break;
     case WINDOWS_FN_LAYER:
-        rgblight_setrgb_blue();
+        rgblight_setrgb_green();
         break;
     case MAC_LAYER:
         rgblight_setrgb_white();
