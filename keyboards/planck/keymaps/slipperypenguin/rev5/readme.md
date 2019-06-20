@@ -6,13 +6,13 @@ syntax:
 `make <my_keyboard>:<my_keymap>`
 
 example:
-`make planck/rev5:slipperypenguin`
+`make planck/rev5:slipperypenguin/rev5`
 
 - - -
 ## Steps
 1. Compile the keymap
   1. `cd qmk_firmware`
-  2. `$ make planck/rev5:slipperypenguin`
+  2. `$ make planck/rev5:slipperypenguin/rev5`
   3. hex file created in root project folder
 2. Open up QMK_TOOLBOX
 3. Set keyboard to "Bootloader" mode with `LOWER + RAISE + Q`
