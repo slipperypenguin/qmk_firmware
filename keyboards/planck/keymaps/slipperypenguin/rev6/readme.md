@@ -18,3 +18,8 @@ example:
 4. Make sure the dfu keyboard is recognized by QMK Toolbox
 5. point to the local hex file to flash and flash.
 6. DO NOT UNPLUG WHILE FLASHING
+
+
+### Note
+Flashing does not work with both /rev5 and /rev6 folders in the `slipperypenguin` directory.
+A work-around is to create a temporary folder for flashing purposes at the `keyboards/planck/keymaps` directory.
